@@ -130,7 +130,7 @@ int custo(int tabuleiro[3][3]) {
 
 }
 
-int acoes(int tabuleiro[3][3]) {
+void acoes(int tabuleiro[3][3]) {
     int l,c,l2,c2,i,j,l3,c3,l4,c4,res=0;
     res=verificador(tabuleiro);
 
